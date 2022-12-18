@@ -1,4 +1,4 @@
-# word-counter
+# text-processor
 
 REST API which implements part of a text processing library.
 ## Description
