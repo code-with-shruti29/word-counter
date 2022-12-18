@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ordina</groupId>
-	<artifactId>word-counter</artifactId>
+	<artifactId>text-processor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>text-processor</name>
 	<description>Text processing API</description>

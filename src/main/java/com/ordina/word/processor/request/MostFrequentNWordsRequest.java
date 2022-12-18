@@ -8,6 +8,5 @@ import javax.validation.constraints.NotEmpty;
 public class MostFrequentNWordsRequest {
     @NotEmpty(message = "Text cannot be empty.")
     private String text;
-   /* @Positive(message = "Value of number of words should be positive.")
-    private int numberOfWords;*/
+
 }

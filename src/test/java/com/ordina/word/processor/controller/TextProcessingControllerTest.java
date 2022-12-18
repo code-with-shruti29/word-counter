@@ -17,18 +17,6 @@ public class TextProcessingControllerTest {
 
     @InjectMocks
     TextProcessingController textProcessingController;
-    @Test
-    public void testAddCar() throws Exception {
-        HighestFrequencyRequest request= new HighestFrequencyRequest();
-        Gson gson= new Gson();
-        standaloneSetup(textProcessingController)
-                .build()
-                .perform(post("/api/cars")
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .content(gson.toJson(request))
-                        .accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk());
 
-    }
 
 }
