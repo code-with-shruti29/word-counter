@@ -34,7 +34,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfo(
                 "Text processor API",
-                "REST API to be used as a text processing library.",
+                "REST API to process text.",
                 "API 0.1",
                 "Terms of service",
                 new Contact("Text processor API", "", "shruti.gautam029@gmail.com"),

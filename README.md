@@ -117,8 +117,10 @@ http://localhost:8080/swagger-ui.html
 
 6. Mockito
 
-7. Swagger UI
+7. Junit 5
 
-8. Lombok
+8. Swagger UI
+
+9. Lombok
 
 

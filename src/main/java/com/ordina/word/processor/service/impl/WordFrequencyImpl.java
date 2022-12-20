@@ -2,9 +2,13 @@ package com.ordina.word.processor.service.impl;
 
 import com.ordina.word.processor.service.WordFrequency;
 import lombok.EqualsAndHashCode;
-import org.springframework.stereotype.Service;
-
-@Service
+import org.springframework.stereotype.Component;
+/**
+ * Class providing method implementation of {@link WordFrequency} interface
+ *
+ * @author Shruti Gautam
+ */
+@Component
 @EqualsAndHashCode
 public class WordFrequencyImpl implements WordFrequency {
 
@@ -21,13 +25,6 @@ public class WordFrequencyImpl implements WordFrequency {
         return frequency;
     }
 
-    public void setWord(String word) {
-        this.word = word;
-    }
-
-    public void setFrequency(int frequency) {
-        this.frequency = frequency;
-    }
     public WordFrequencyImpl() {
     }
 
